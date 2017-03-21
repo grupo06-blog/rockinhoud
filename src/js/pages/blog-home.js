@@ -150,7 +150,7 @@ class Home extends Component {
             <div id="p-blog-home">
                 <div id="header" className="min-header-main-screen">
                     <div id="top-header">
-                        VOAAI.COM - Todos direitos reservados - 2017
+                        ROCK INHOUD - Todos direitos reservados - 2017
                     </div>
                     <div className="container">
                         <LogoAndMenu />
@@ -165,7 +165,71 @@ class Home extends Component {
                             errorMessage={this.state.errorMessage}/>
                     </div>
                 </div>
-                <LastPosts isMainPage={true}/>
+                <div id="whoWeAre" className="container">
+                    <h3>ROCK INHOUD! QUEM SOMOS?</h3>
+                    <p>Olá! Somos a RockInhoud, uma startup que ajuda micro e pequenas empresas a
+                        desenvolverem sua estratégia de Marketing de Conteúdo, utilizando uma rede de
+                        redatores espalhados por todo o Brasil.</p>
+                    <p>Que tal criar ou atualizar seu blog? Produzir um conteúdo que eduque e engaje seus clientes
+                        sobre seu produto ou serviço? Estamos aqui para te ajudar! Contem com a RockInhoud</p>
+                    <div id="servicos">
+                        <h3>SERVIÇOS</h3>
+                        <p>Nosso foco é fazer que o seu conteúdo gere bons resultados. Como fazermos isso?
+                            Por meio do Marketing de Conteúdo ;)</p>
+                        <br/>
+                        <div className="row">
+                            <div className="col s12 m4 texto-centro">
+                                <h4><strong>Criação de blog</strong></h4>
+                                <p>Nós desenvolvemos seu blog de forma otimizada, para oferecer a melhor
+                                    experiência possível aos seus clientes. Uma plataforma profissional
+                                    para gerar resultados rápidos.</p>
+                                <h2>R$ 200,00</h2>
+                            </div>
+                            <div className="col s12 m4 texto-centro">
+                                <h4><strong>Guia de Marketing de Conteúdo </strong></h4>
+                                <p>Tenha acesso a um guia exclusivo, desenvolvido pelos nossos experts em
+                                    Marketing de Conteúdo, para te auxiliar na produção de conteúdos exclusivos.
+                                </p>
+                                <h2>R$ 200,00</h2>
+                            </div>
+                            <div className="col s12 m4 texto-centro">
+                                <h4><strong>Cronograma Inicial</strong></h4>
+                                <p>Além disso, receba um Cronograma Inicial para gerar resultados rápidos e
+                                    de alta performance.</p>
+                                <h2>R$ 200,00</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col s12 m4 texto-centro">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                                    <input type="hidden" name="code" value="BFBA63B17171650FF4582F808F272525"/>
+                                    <input type="hidden" name="iot" value="button"/>
+                                    <input type="image"
+                                           src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif"
+                                           name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!"/>
+                                </form>
+                            </div>
+                            <div className="col s12 m4 texto-centro">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                                    <input type="hidden" name="code" value="BFBA63B17171650FF4582F808F272525"/>
+                                    <input type="hidden" name="iot" value="button"/>
+                                    <input type="image"
+                                           src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif"
+                                           name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!"/>
+                                </form>
+                            </div>
+                            <div className="col s12 m4 texto-centro">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                                    <input type="hidden" name="code" value="BFBA63B17171650FF4582F808F272525"/>
+                                    <input type="hidden" name="iot" value="button"/>
+                                    <input type="image"
+                                           src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif"
+                                           name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <Footer/>
                 <Modal ref="modal"
                        keyboard={false}

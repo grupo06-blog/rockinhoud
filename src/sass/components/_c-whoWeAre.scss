@@ -1,0 +1,34 @@
+#whoWeAre {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+
+  h3 {
+    font-weight: 700;
+  }
+
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .texto-direita {
+    text-align: right;
+  }
+
+  .texto-esquerda {
+    text-align: left;
+  }
+
+  .texto-centro {
+    text-align: center;
+  }
+
+  #servicos {
+    margin-top: 120px;
+
+    .row {
+      margin-bottom: 0;
+    }
+  }
+}

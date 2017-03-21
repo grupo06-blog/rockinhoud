@@ -6,9 +6,7 @@ class LogoAndMenu extends Component {
     render() {
         return (
             <div id="logoAndMenuContainer">
-                <a onClick={goToHome.bind(this)}>
-                    <img src="images/logo.png"  height='50px' alt="VoaAi Logo"/>
-                </a>
+                <img src="images/logo-white.png" height='30px' />
                 <div id="menu" className="hide-on-med-and-down">
                     <div className="menu-item">
                         <a onClick={goToHome.bind(this)}>
@@ -17,12 +15,7 @@ class LogoAndMenu extends Component {
                     </div>
                     <div className="menu-item">
                         <a onClick={goToAllPost.bind(this)}>
-                            Todas as Postagens
-                        </a>
-                    </div>
-                    <div className="menu-item">
-                        <a onClick={goToAllEbooks.bind(this)}>
-                            E-books
+                            Blog
                         </a>
                     </div>
                     <div className="menu-item">

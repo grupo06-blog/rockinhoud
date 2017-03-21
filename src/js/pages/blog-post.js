@@ -176,43 +176,6 @@ class BlogPost extends Component {
                     </div>
                     <div className="container">
                         <LogoAndMenu />
-                        <div className="container">
-                            <div id="form-submit" className="row">
-
-                                <div className="col s6">
-                                    <input
-                                        ref="inputName"
-                                        placeholder="Nome Completo"
-                                        className="input-field"
-                                        id="inputName"
-                                        type="text"
-                                        value={this.state.userName}
-                                        onChange={this.onInputUserNameChange.bind(this)}
-                                    />
-                                </div>
-                                <div className="col s6">
-                                    <input placeholder="Email"
-                                           className="input-field"
-                                           type="email"
-                                           id="inputEmail"
-                                           value={this.state.userEmail}
-                                           onChange={this.onInputEmailChange.bind(this)}
-                                    />
-                                </div>
-                                <div className="col s12">
-                                    <div id="btn-submit">
-                                        <a id="default-btn" onClick={this.submitForm.bind(this)}>
-                                            Receber dicas sobre viagens!
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="col s12">
-                                    {isError ? <div id="msg" className="row">
-                                            {this.state.errorMessage}
-                                        </div> : null}
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div id="post-container" className="container">
@@ -221,12 +184,6 @@ class BlogPost extends Component {
                     })}
                 </div>
                 <Footer/>
-                <Modal ref="modal"
-                       keyboard={false}
-                       closeOnClick={true}
-                       modalStyle={modalStyle}>
-                    <p style={{textAlign: 'center'}}><Spinner/></p>
-                </Modal>
             </div>
         )
     }
