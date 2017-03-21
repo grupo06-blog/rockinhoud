@@ -7,7 +7,7 @@ class LogoAndMenu extends Component {
         return (
             <div id="logoAndMenuContainer">
                 <a onClick={goToHome.bind(this)}>
-                    <img src="images/logo-white.png" height='30px'/>
+                    <img src="images/logo-rock.svg" height='70px'/>
                 </a>
                 <div id="menu" className="hide-on-med-and-down">
                     <div className="menu-item">
