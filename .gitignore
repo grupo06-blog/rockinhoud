@@ -1,0 +1,8 @@
+.idea/
+*debug*
+node_modules/
+src/.sass_cache/
+.sass_cache/
+.DS_Store
+*.css
+.sass-cache/
