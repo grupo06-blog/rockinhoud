@@ -10,7 +10,7 @@ class Footer extends Component {
                         Todos os direitos reservados
                     </div>
                     <div className="row">
-                        @2017 - Voaai
+                        @2017 - Rock Inhoud
                     </div>
                 </div>
             </div>
