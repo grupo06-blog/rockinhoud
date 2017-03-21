@@ -1,0 +1,20 @@
+
+/* Global Styles */
+@import 'base/defaults';
+@import 'base/grid';
+@import 'base/screen';
+@import 'base/helpers';
+@import 'base/buttons';
+
+/* Grommet Style */
+@import '../../node_modules/grommet/scss/grommet-core/index';
+
+/* Pages */
+@import "pages/p-blog-post";
+@import "pages/p-blog-quem-somos";
+
+/* Components Styles */
+@import 'components/modal';
+@import 'components/_c-footer';
+@import "components/c-header";
+@import 'components/c-last-news';

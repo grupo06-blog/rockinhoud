@@ -1,0 +1,138 @@
+$headerHeight: 90vh;
+$topHeaderHeight: 35px;
+$logoAndMenuContainerHeight: 60px;
+
+#show-all-ebooks {
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 15px;
+}
+
+.min-header-main-screen {
+  min-height: $headerHeight;
+}
+
+#header {
+  width: 100%;
+  padding-bottom: 15px;
+
+  background: rgba(37, 113, 146, 1);
+  background: -moz-linear-gradient(45deg, rgba(37, 113, 146, 1) 0%, rgba(67, 155, 145, 1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(37, 113, 146, 1)), color-stop(100%, rgba(67, 155, 145, 1)));
+  background: -webkit-linear-gradient(45deg, rgba(37, 113, 146, 1) 0%, rgba(67, 155, 145, 1) 100%);
+  background: -o-linear-gradient(45deg, rgba(37, 113, 146, 1) 0%, rgba(67, 155, 145, 1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(37, 113, 146, 1) 0%, rgba(67, 155, 145, 1) 100%);
+  background: linear-gradient(45deg, rgba(37, 113, 146, 1) 0%, rgba(67, 155, 145, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#257192', endColorstr='#439b91', GradientType=1);
+
+  #top-header {
+    width: 100%;
+    height: $topHeaderHeight;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #logoAndMenuContainer {
+    width: 100%;
+    height: $logoAndMenuContainerHeight;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 600px) {
+      display: flex;
+      justify-content: center;
+    }
+
+    #menu {
+      display: flex;
+      .menu-item {
+        margin-left: 30px;
+        a {
+          color: white;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  #banner {
+    width: 100%;
+    min-height: 60vh;
+    background-color: white;
+
+    @media (max-width: 992px) {
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #row-container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    #banner-image {
+      min-height: calc(60vh + 20px);
+
+      background-image: url("/images/banner-home.jpg");
+      background-size: cover;
+    }
+
+    #info {
+      height: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      color: #6b6b6b;
+
+      .text-center {
+        text-align: center;
+      }
+      h2 {
+        font-family: 'Lato', 'Work Sans', sans-serif;
+        color: #206873;
+        font-size: 1.5em;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+
+      .input-field {
+        width: 100%;
+      }
+
+      #inputEmail {
+        margin-top: 10px;
+      }
+
+      #btn-submit {
+        height: auto;
+        margin-top: 10px;
+        width: 100%;
+      }
+
+      #default-btn {
+        height: auto;
+        padding: 11px 23px;
+      }
+    }
+  }
+}

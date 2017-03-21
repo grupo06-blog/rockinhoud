@@ -1,0 +1,41 @@
+#p-blog-post {
+
+  #form-submit {
+    width: 100%;
+    height: auto;
+
+    #msg {
+      text-align: center;
+      color: #fff;
+      margin-top: 15px;
+    }
+    #btn-submit {
+      margin-top: 15px;
+    }
+    #default-btn {
+      background-color: transparent ;
+      box-shadow: inset 0 0 0 1px white;
+      color: white;
+
+      &:hover {
+        background-color: white;
+        color: #000001;
+      }
+    }
+  }
+
+  .input-field {
+    width: 100%;
+    background-color: white;
+  }
+
+  #post-container {
+    display: flex;
+    justify-content: center;
+
+    p {
+      min-height: 900px;
+      max-width: 900px;
+    }
+  }
+}
