@@ -172,7 +172,7 @@ class BlogPost extends Component {
             <div id="p-blog-post">
                 <div id="header">
                     <div id="top-header">
-                        VOAAI.COM - Todos direitos reservados - 2017
+                        ROCKINHOUD.COM - Todos direitos reservados - 2017
                     </div>
                     <div className="container">
                         <LogoAndMenu />
@@ -180,9 +180,24 @@ class BlogPost extends Component {
                 </div>
                 <div id="post-container" className="container">
                     {postData.content.map(function (item, key) {
-                        return <p key={key} dangerouslySetInnerHTML={{__html: item}}></p>
+                        return <p key={key} dangerouslySetInnerHTML={{__html: item}}></p> 
                     })}
                 </div>
+
+                <div id="post-container" className="container">
+                    <div className="avatar">
+                      <div className="avatar_photo o_ltr">
+                          <img src="https://static.intercomassets.com/avatars/352587/square_128/Untitled_design-1483999565.png?1483999565" className="avatar_image"/>
+
+                      </div>
+                      <div className="avatar_info">
+                        <div className="noWrap">
+                          <span className="noWrap">Written by</span> <span className="c_darker noWrap"> RockInhound </span> <br/>Updated over a week ago
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
                 <Footer/>
             </div>
         )

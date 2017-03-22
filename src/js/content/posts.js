@@ -4,10 +4,10 @@ let posts = [
     {
         id: 0,
         title: 'Bem-vindo a Rock Inhoud!',
-        description: 'Confira passagens aéreas com desconto saindo das principais capitais do Brasil para o Rock in Rio 2017!',
+        description: 'Esperamos que através desse conteúdo você veja que o marketing de conteúdo é também para você que é ainda',
         image: 'images/posts/rockinrio.jpg',
         ebook: '',
-        content: ['<h2>Olá, tudo bem? Bem-vindo ao blog.</h2>' +
+        content: ['<h2>Olá, tudo bem? Bem-vindo ao blog .</h2>' +
         'Esperamos que através desse conteúdo você veja que o marketing de conteúdo é também para você que é ainda ' +
         'um pequeno empreendedor, e claro, que você capte muitos clientes. Estamos aqui para ser parceiros no seu ' +
         'sucesso.<br/><br/>' +
@@ -33,6 +33,24 @@ let posts = [
         'eficazes para atrair clientes. Fique ligado!<br/><br/>' +
         'Traremos ferramentas e metodologias bem práticas para você começar a fazer isso no seu negócio.<br/><br/>' +
         'Grande abraço e até a próxima']
+    },
+    {
+        id: 1,
+        title: 'O impacto do Marketing de Conteúdo no relacionamento com seu clientes',
+        description: 'O Marketing de Conteúdo tem como principal função engajar o seu público alvo, fazer fortalecer a sua rede de clientes e fazer crescer a de potenciais.',
+        image: 'images/posts/Marketing-de-Conteúdo1-e1424720016780.jpg',
+        ebook: '',
+        content: ['<h2>Olá, tudo bem? Bem-vindo ao blog .</h2>' +
+        'O Marketing de Conteúdo tem como principal função engajar o seu público alvo, fazer fortalecer a sua rede de clientes e fazer crescer a de potenciais.<br> ' +
+        'Isso é feito através da criação de conteúdo relevante e valioso para aqueles que o leem.<br><br>' +
+        'De modo mais detalhado, engajar o seu público alvo significa que ele vai querer cada vez mais ler o que você está produzindo.<br><br>' +
+        'Quanto ao conteúdo, dizer que precisa ser relevante e valioso, indica que será útil ao seu público alvo em um determinado momento. Assim, na hora que alguma pessoa procurar '+
+        'por dúvidas relacionadas à área do seu negócio, irá encontrar a resposta no conteúdo produzido por você.<br><br>' +
+        '<h3>Quais os benefícios desse tipo de marketing? Existem diversos, mas podemos citar dois principais:</h3>' +
+        '1. Relação de confiança com a sua marca: as pessoas confiam em quem as ajuda. Se no momento em que um possível cliente procurar sobre determinado tema no Google e encontrar o seu site como fonte de resposta, ela terá maior propensão a confiar no seu serviço ou produto. <br><br>' +
+        '2. Você passa a ser lembrado por seu público alvo: como a pessoa encontrou a resposta para o seu problema ou dúvida através do seu conteúdo, a tendência é que ela lembre de você para solucionar as próximas dúvidas. Sua marca estará constantemente na memória do seu cliente <br><br>' +
+        'Sendo assim, o Marketing de Conteúdo proporciona que o cliente confie na sua marca e lembre-se de você quando precisar contratar seu serviço e produto.<br><br>' +
+        'Por hoje é isso. Teremos mais conteúdo para você em breve.']
     }
 ];
 

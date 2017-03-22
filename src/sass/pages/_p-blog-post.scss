@@ -37,5 +37,46 @@
       min-height: 900px;
       max-width: 900px;
     }
+
+     .avatar {
+    font-size: 13px;
+    color: #8897a4;
+    margin-top: 4px;
+}
+  .avatar_photo {
+    margin-right: 10px;
+    float: left;
+}
+
+.c_darker {
+    color: #4f5e6b;
+}
+
+.avatar_info, .avatar_photo {
+    line-height: 1.4;
+}
+
+.avatar_info, .avatar_photo {
+    line-height: 1.4;
+}
+
+.noWrap {
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.avatar_image {
+    width: 32px;
+    height: 32px;
+    vertical-align: bottom;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff;
+    position: relative;
+    z-index: 4;
+}
+
+div {
+    display: block;
+}
   }
 }
