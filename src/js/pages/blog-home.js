@@ -213,8 +213,9 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div id="price" className="row">
                             <p>Adquira todos estes três produtos por apenas:</p>
+                            <h4 className="old-price"><del>R$ 500,00</del></h4>
                             <h2>R$ 200,00</h2>
                         </div>
                         <div className="row">
