@@ -20,6 +20,11 @@ class LogoAndMenu extends Component {
                             Blog
                         </a>
                     </div>
+                    <div className="menu-item">
+                        <a onClick={goToQuemSomos.bind(this)}>
+                            Contato
+                        </a>
+                    </div>
                 </div>
             </div>
         )
