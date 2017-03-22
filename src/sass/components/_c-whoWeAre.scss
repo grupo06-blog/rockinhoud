@@ -47,8 +47,16 @@
   #servicos {
     margin-top: 120px;
 
+    .old-price {
+      color: #af0808;
+      margin-bottom: 0;
+    }
     .row {
       margin-bottom: 0;
+    }
+
+    #price {
+      margin-top: 60px;
     }
   }
 }
