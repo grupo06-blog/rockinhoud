@@ -217,7 +217,7 @@ class Home extends Component {
                             <p>Adquira todos estes três produtos por apenas:</p>
                             <h4 className="old-price"><del>R$ 500,00</del></h4>
                             <h2 className="new-price">R$ 200,00</h2>
-                            <p className="promotion">somente até 25/04</p>
+                            <p className="promotion">somente até 25/03</p>
                         </div>
                         <div className="row">
                             <div className="col s12 texto-centro">
