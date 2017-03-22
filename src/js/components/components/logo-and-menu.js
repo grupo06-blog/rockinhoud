@@ -16,14 +16,8 @@ class LogoAndMenu extends Component {
                         </a>
                     </div>
                     <div className="menu-item">
-                        <a href="https://rockinhoud.wordpress.com/" target="_blank">
-                            {/*<a onClick={goToAllPost.bind(this)}>*/}
-                            Blog
-                        </a>
-                    </div>
-                    <div className="menu-item">
                         <a onClick={goToAllPost.bind(this)}>
-                            Blog Segunda Opção
+                            Blog
                         </a>
                     </div>
                 </div>
