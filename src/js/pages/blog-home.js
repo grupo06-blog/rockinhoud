@@ -228,6 +228,23 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
+                  <div id="redator">
+                        <h3>SOU REDATOR</h3>
+                        <p>Tenha acesso exclusivo aos nossos clientes e
+                            realize produção de conteúdo para blogs, sites e redes sociais.</p>
+                        <p><small>* Após o pagamento você receberá um email para cadastrar seus dados na
+                        nossa plataforma.</small></p>
+                        <br/>
+                        <div className="row">
+                            <div className="col s12 texto-centro">
+                              <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                                <input type="hidden" name="code" value="491F6147FAFA4BD334483F9437676AC7" />
+                                <input type="hidden" name="iot" value="button" />
+                                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                              </form>
+                            </div>
+                        </div>
+                  </div>
                 </div>
                 <Footer/>
                 <Modal ref="modal"
