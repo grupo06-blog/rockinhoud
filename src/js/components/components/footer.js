@@ -9,6 +9,7 @@ class Footer extends Component {
                     <div className="row">
                         Todos os direitos reservados
                     </div>
+                    <a href="https://www.facebook.com/rockinhoud" target="_blank"> <img className="facebook" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-256.png"/></a>
                     <div className="row">
                         @2017 - Rock Inhoud
                     </div>
