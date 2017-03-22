@@ -65,7 +65,7 @@ let posts = [
         description: 'O Marketing de Conteúdo tem como principal função engajar o seu público alvo, fazer fortalecer a sua rede de clientes e fazer crescer a de potenciais.',
         image: 'images/posts/Marketing-de-Conteúdo1-e1424720016780.jpg',
         ebook: '',
-        content: ['<h2>Olá, tudo bem? Bem-vindo ao blog .</h2>' +
+        content: ['<h2>O impacto do Marketing de Conteúdo no relacionamento com seu clientes</h2>' +
         'O Marketing de Conteúdo tem como principal função engajar o seu público alvo, fazer fortalecer a sua rede de clientes e fazer crescer a de potenciais.<br> ' +
         'Isso é feito através da criação de conteúdo relevante e valioso para aqueles que o leem.<br><br>' +
         'De modo mais detalhado, engajar o seu público alvo significa que ele vai querer cada vez mais ler o que você está produzindo.<br><br>' +
