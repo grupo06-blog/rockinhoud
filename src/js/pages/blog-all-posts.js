@@ -27,7 +27,7 @@ class BlogAllPosts extends Component {
             <div id="p-blog-post">
                 <div id="header">
                     <div id="top-header">
-                        VOAAI.COM - Todos direitos reservados - 2017
+                        ROCK INHOUD - Todos direitos reservados - 2017
                     </div>
                     <div className="container">
                         <LogoAndMenu />

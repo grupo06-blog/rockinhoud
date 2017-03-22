@@ -178,19 +178,22 @@ class Home extends Component {
                             Por meio do Marketing de Conteúdo ;)</p>
                         <br/>
                         <div className="row">
-                            <div className="col s12 m4 texto-centro">
-                                <h4><strong>Criação de blog</strong></h4>
+                            <div className="col s12 m4 item-service">
+                                <img src="images/icones_servicos-03.svg" height='80px' />
+                                <h4><strong>Blog</strong></h4>
                                 <p>Nós desenvolvemos seu blog de forma otimizada, para oferecer a melhor
                                     experiência possível aos seus clientes. Uma plataforma profissional
                                     para gerar resultados rápidos.</p>
                             </div>
-                            <div className="col s12 m4 texto-centro">
+                            <div className="col s12 m4 item-service">
+                                <img src="images/icones_servicos-02.svg" height='80px' />
                                 <h4><strong>Guia de Marketing de Conteúdo </strong></h4>
                                 <p>Tenha acesso a um guia exclusivo, desenvolvido pelos nossos experts em
                                     Marketing de Conteúdo, para te auxiliar na produção de conteúdos exclusivos.
                                 </p>
                             </div>
-                            <div className="col s12 m4 texto-centro">
+                            <div className="col s12 m4 item-service">
+                                <img src="images/icones_servicos-01.svg" height='80px' />
                                 <h4><strong>Cronograma Inicial</strong></h4>
                                 <p>Além disso, receba um Cronograma Inicial para gerar resultados rápidos e
                                     de alta performance.</p>
@@ -202,7 +205,7 @@ class Home extends Component {
                         </div>
                         <div className="row">
                             <div className="col s12 texto-centro">
-                                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" target="_blank">
                                     <input type="hidden" name="code" value="43614C86BBBB2C7BB4F8DFB0C3A8E298" />
                                     <input type="hidden" name="iot" value="button" />
                                     <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />

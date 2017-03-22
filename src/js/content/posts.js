@@ -3,27 +3,36 @@
 let posts = [
     {
         id: 0,
-        title: 'Compre passagens aéreas com desconto para curtir o Rock in Rio 2017',
+        title: 'Bem-vindo a Rock Inhoud!',
         description: 'Confira passagens aéreas com desconto saindo das principais capitais do Brasil para o Rock in Rio 2017!',
         image: 'images/posts/rockinrio.jpg',
         ebook: '',
-        content: ['<h2>Compre passagens aéreas com desconto para curtir o Rock in Rio 2017</h2>' +
-        '<img src="images/posts/rockinrio-banner.jpg" /><br/><br/> Vai curtir o Rock in Rio' +
-        ' 2017 na Cidade maravilhosa em setembro mas ainda não garantiu suas passagens de aéreas? ' +
-        'O <b>MaxMilhas</b> está com preços super legais para quem quer aproveitar um dos maiores festivais de ' +
-        'música do mundo economizando uma grana!<br/><br/> <h3>Primeiro final de semana</h3>Preços para ida em 15/9 ' +
-        '(sexta) e volta em 18/9 (segunda) com taxas de embarque incluídas<br/><br/> <ul> <li>São Paulo - a partir de ' +
-        'R$249,80</li><li>Belo Horizonte - a partir de R$396,74</li><li>Porto Alegre - a partir de R$462,32</li><li>' +
-        'Curitiba - a partir de R$358,72</li><li>Recife - a partir de R$627,24</li><li>Brasília - a partir de R$37' +
-        '9,61</li><li>Florianópolis - a partir de R$495,71</li><li>Campo Grande - a partir de R$518,39</li><li>Salv' +
-        'ador - a partir de R$409,80</li></ul><h3>Segundo final de semana</h3>Preços para ida em 21/9 (quinta) e v' +
-        'olta em 25/9 (segunda) com taxas de embarque incluídas<br/><br/><ul><li>São Paulo - a partir de R$226,80</li>' +
-        '<li>Belo Horizonte - a partir de R$355,89</li><li>Porto Alegre - a partir de R$368,82</li><li>Curitiba - a pa' +
-        'rtir de R$353,82</li><li>Recife - a partir de R$652,74</li><li>Brasília - a partir de R$453,61</li><li>Florian' +
-        'ópolis - a partir de R$462,32</li><li>Campo Grande - a partir de R$462,39</li><li>Salvador - a partir de R' +
-        '$559,33</li></ul>Os preços podem variar ao longo do dia. Faça a sua pesquisa ' +
-        '<a href="https://www.maxmilhas.com.br" target="_blank"><strong>aqui!</strong></a><br/><br/>Quer saber mais sobre o MaxMilhas? ' +
-        '<a href="https://www.maxmilhas.com.br/quemsomos" target="_blank"><strong>Clique aqui!</strong></a>']
+        content: ['<h2>Olá, tudo bem? Bem-vindo ao blog.</h2>' +
+        'Esperamos que através desse conteúdo você veja que o marketing de conteúdo é também para você que é ainda ' +
+        'um pequeno empreendedor, e claro, que você capte muitos clientes. Estamos aqui para ser parceiros no seu ' +
+        'sucesso.<br/><br/>' +
+        '<h3>O que mudou na relação com os clientes nos últimos tempos?</h3>' +
+        'Bom, se você pudesse me falar qual a principal mudança ocorrida nos últimos dez anos na sua relação com ' +
+        'seus clientes, qual você me diria?<br/><br/>' +
+        'Definitivamente a tecnologia está mais presente do que nunca nas nossas vidas, a nossa rotina está ' +
+        ' vez mais cheia e as mídias sociais já exercem um papel fundamental nesse relacionamento.<br/><br/>' +
+        'No entanto, uma das principais mudanças ocorrida entre nós e àqueles aos quais prestamos serviços ou ' +
+        'vendemos um produto é que todos estamos muito mais informados [inclusive o cliente] ou, pelo menos, ' +
+        'temos mais acesso à informação do que em qualquer outra época vivida na história da humanidade.<br/><br/>' +
+        'Há dez anos, o cliente chegava na sua loja e qualquer coisa que você falasse do seu produto já seria' +
+        ' novidade. No máximo, alguns mencionavam que já tinha conversado com alguma outra pessoa, ou' +
+        ' que vieram por indicação.<br/><br/>' +
+        'Hoje, antes mesmo de chegar até você, seu cliente já pesquisou tudo o que podia sobe o assunto. Fato ' +
+        'é que seus clientes estão consumindo conteúdo sobre o seu serviço ou produto na internet.<br/><br/>' +
+        '<h3>Mas quem está produzindo esse conteúdo?</h3>' +
+        'A dica que queremos trazer aqui nesse primeiro post do blog é: saia à frente de seus concorrentes, ' +
+        'já esteja na cabeça dos seus clientes desde o momento que ele pesquisa sobre uma necessidade na ' +
+        'internet. Faça com que ele te encontre e venha até você!<br/><br/>' +
+        'Tudo isso é possível através do Marketing de Conteúdo!<br/><br/>' +
+        'Vamos falar melhor sobre esse tema nos próximos posts e você ficará por dentro das técnicas mais ' +
+        'eficazes para atrair clientes. Fique ligado!<br/><br/>' +
+        'Traremos ferramentas e metodologias bem práticas para você começar a fazer isso no seu negócio.<br/><br/>' +
+        'Grande abraço e até a próxima']
     },
     {
         id: 1,
