@@ -8,8 +8,8 @@ class BannerHeader extends Component {
         return (
             <div id="banner">
                 <h1>Alavanque seu negócio agora!</h1>
-                <p>Somos especializados em marketing digital e alavancamos seus negócios com os serviços mais
-                    rápidos e eficazes! Tudo para você se destacar no mercado!</p>
+                <p>Somos especializados em marketing digital para micro pequenas empresas. Alavancando seu negócio
+                    com os serviços mais rápidos e eficazes! Tudo para você se destacar no mercado!</p>
             </div>
         )
     }

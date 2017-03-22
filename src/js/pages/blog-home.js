@@ -182,8 +182,12 @@ class Home extends Component {
                                 <img src="images/icones_servicos-03.svg" height='120px' />
                                 <h4><strong>Blog</strong></h4>
                                 <p>Nós desenvolvemos seu blog de forma otimizada, para oferecer a melhor
-                                    experiência possível aos seus clientes. Uma plataforma profissional
-                                    para gerar resultados rápidos.</p>
+                                    experiência possível aos seus clientes.</p>
+                                <div className="row">
+                                    <a href="https://rockinhoud.wordpress.com/" target="_blank">
+                                        <strong> Veja como poderá ser seu blog</strong>
+                                    </a>
+                                </div>
                             </div>
                             <div className="col s12 m4 item-service">
                                 <img src="images/icones_servicos-02.svg" height='120px' />
@@ -191,12 +195,22 @@ class Home extends Component {
                                 <p>Tenha acesso a um guia exclusivo, desenvolvido pelos nossos experts em
                                     Marketing de Conteúdo, para te auxiliar na produção de conteúdos exclusivos.
                                 </p>
+                                <div className="row">
+                                    <a href="#" target="_blank">
+                                        <strong> Veja o preview do guia</strong>
+                                    </a>
+                                </div>
                             </div>
                             <div className="col s12 m4 item-service right-service">
                                 <img src="images/icones_servicos-01.svg" height='120px' />
                                 <h4><strong>Cronograma Inicial</strong></h4>
                                 <p>Além disso, receba um Cronograma Inicial para gerar resultados rápidos e
                                     de alta performance.</p>
+                                <div className="row">
+                                    <a href="#" target="_blank">
+                                        <strong> Veja um modelo de cronograma</strong>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className="row">
