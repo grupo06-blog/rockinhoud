@@ -237,7 +237,7 @@ class Home extends Component {
                         <br/>
                         <div className="row">
                             <div className="col s12 texto-centro">
-                              <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                              <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" target="_blank">
                                 <input type="hidden" name="code" value="491F6147FAFA4BD334483F9437676AC7" />
                                 <input type="hidden" name="iot" value="button" />
                                 <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />

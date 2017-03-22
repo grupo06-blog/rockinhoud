@@ -57,7 +57,7 @@ let posts = [
         'é outro ponto à favor, uma vez que, você escolhe os textos que quer escrever, na medida em que tem mais ou menos tempo para isso.<br/><br/><br/>' +
         'Aqui na <strong>Rock Inhoud</strong>, temos uma Rede de Redatores que produzem conteúdo para nossos clientes de maneira personalizada. E o melhor de tudo, todo o processo ' +
         'de negociação, prazos, e valores é feito por você e a empresa contratante.<br/><br/>' +
-        '<strong><a href="http://www.rockinhoud.com#redator">Clique aqui e saiba como se cadastrar!</a></strong><br/>'
+        '<strong><a href="http://www.rockinhoud.com">Clique aqui e saiba como se cadastrar!</a></strong><br/>'
         ]
     }
 ];
