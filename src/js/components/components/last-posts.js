@@ -10,9 +10,6 @@ class LastPosts extends Component {
     render() {
         return (
             <div className="container">
-                <div id="show-all-ebooks">
-                    <a onClick={goToAllEbooks.bind(this)}>+ Ver todos ebooks</a>
-                </div>
                 <div id="c-last-news">
                     {this.props.isMainPage ? posts.map(function (item, key) {
                             if(key < 5) {
