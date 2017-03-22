@@ -32,6 +32,18 @@
     }
   }
 
+  .left-service {
+    @media (min-width: 601px) {
+      padding-right: 50px;
+    }
+  }
+
+  .right-service {
+    @media (min-width: 601px) {
+      padding-left: 50px;
+    }
+  }
+
   #servicos {
     margin-top: 120px;
 
