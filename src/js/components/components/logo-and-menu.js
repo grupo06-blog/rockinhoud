@@ -21,6 +21,11 @@ class LogoAndMenu extends Component {
                             Blog
                         </a>
                     </div>
+                    <div className="menu-item">
+                        <a onClick={goToAllPost.bind(this)}>
+                            Blog Segunda Opção
+                        </a>
+                    </div>
                 </div>
             </div>
         )
