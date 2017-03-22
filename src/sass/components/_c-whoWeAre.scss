@@ -22,7 +22,7 @@
 
   .item-service {
     text-align: center;
-    
+
     @media (max-width: 600px) {
       margin-top: 50px;
     }
@@ -69,5 +69,9 @@
     #price {
       margin-top: 60px;
     }
+  }
+
+  #redator {
+    margin-top: 120px;
   }
 }
