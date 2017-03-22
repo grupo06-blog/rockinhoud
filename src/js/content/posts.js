@@ -38,7 +38,7 @@ let posts = [
         id: 1,
         title: 'Seja um redator da Rock Inhoud!',
         description: 'Você deve estar se perguntando: Como eu me torno um redator freelancer? O que exatamente irei fazer nessa profissão? Separamos algumas respostas para você que deseja entrar nessa carreira. ',
-        image: 'images/posts/redator-temp.png',
+        image: 'images/posts/redator.jpg',
         ebook: '',
         content: ['<h2>Seja um redator da Rock Inhoud!</h2>' +
         'Você já ouviu alguém dizer que é redator freelancer, ou redator web? Hoje o marketing de conteúdo está presente em tudo, ' +
@@ -60,7 +60,7 @@ let posts = [
         '<strong><a href="http://www.rockinhoud.com">Clique aqui e saiba como se cadastrar!</a></strong><br/>']
     },
     {
-        id = 2,
+        id: 2,
         title: 'O impacto do Marketing de Conteúdo no relacionamento com seu clientes',
         description: 'O Marketing de Conteúdo tem como principal função engajar o seu público alvo, fazer fortalecer a sua rede de clientes e fazer crescer a de potenciais.',
         image: 'images/posts/Marketing-de-Conteúdo1-e1424720016780.jpg',
